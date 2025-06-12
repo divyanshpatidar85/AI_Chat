@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 from pydantic import BaseModel
-from utils import get_db_connection, get_schema_info, generate_sql, execute_sql
+from Backend-AI.utils import get_db_connection, get_schema_info, generate_sql, execute_sql
 
 app = FastAPI()
 
