@@ -1,6 +1,6 @@
 import pyodbc
 import json
-from config import DB_CONFIG, GENAI_API_KEY
+from Backend-AI.config import DB_CONFIG, GENAI_API_KEY
 from google import genai
 
 def get_db_connection():
